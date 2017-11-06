@@ -7,13 +7,13 @@ header ="""
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="http://www.aidenator.com/static/img/favicon.ico">
 
-        <title>Aidenator</title>
+        <title>SpinWith.us</title>
 
         <!-- Bootstrap core CSS -->
         <link href="../static/css/bootstrap.min.css?v=1.1" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="../static/css/jumbotron-narrow.css" rel="stylesheet">
-        <!-- Aiden's custom CSS changes -->
+        <!-- LAT's custom CSS changes -->
         <link href="../static/css/my-changes.css?v=1.1" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,8 +24,12 @@ header ="""
     </head>
 
     <body>
-
+      <div class="gradient-bg"></div>
         <div class="container">
+
+"""
+
+footer ="""
             <div class="navbar navbar-default" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
@@ -34,7 +38,7 @@ header ="""
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/"><b>Aidenator.com</b></a>
+                        <a class="navbar-brand" href="/"><b>SpinWith.us</b></a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -80,12 +84,8 @@ header ="""
                     </div><!--/.nav-collapse -->
                 </div><!--/div .container -->
             </div><!--/div .navbar -->
-
-"""
-
-footer ="""
             <footer class="footer">
-                <p>&copy; Aidenator 2017</p>
+                <p>&copy; A.L.T. 2017</p>
             </footer>
         </div><!--/div .container (outermost) -->
 
