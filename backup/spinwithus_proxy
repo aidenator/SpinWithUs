@@ -1,0 +1,17 @@
+server {
+ listen 80;
+ server_name spinwith.us;
+ error_log /var/log/nginx/error.log;
+
+ # Setup a special status webpage
+ location /status {
+    stub_status on;
+    access_log off;
+ }
+
+ location / { try_files $uri @app; }
+ location @app {
+ include uwsgi_params;
+ uwsgi_pass unix:/tmp/spinwithus.sock;
+ }
+}
