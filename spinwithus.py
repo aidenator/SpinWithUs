@@ -1,5 +1,6 @@
-# Main python source code for www.aidenator.com
+# Main python source code for spinwith.us
 # Written by Aiden Hoopes, February 2017
+# Co-opted for spinwith.us, October 2017
 
 from flask import Flask, render_template
 from words import *
