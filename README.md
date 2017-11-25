@@ -1,9 +1,8 @@
 # spinwith.us
 
-## What even is this?
-This site was made just for fun, to get Linux experience, and to get python
-web server experience.
+## What the eff is this?
+A goofy site to shame all other single-serve sites.
 
-Scratch that. This is spinwith.us. This is gonna be awesome!
+This is spinwith.us. This is gonna be awesome!
 
 -A.L.T.
